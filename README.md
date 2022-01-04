@@ -31,8 +31,8 @@ of disk space.
 CONDA_PATH=$(echo "SET_PATH_HERE")
 
 # Create conda environment
-conda create --prefix $SCRATCH/urec_oc1703a_malaspina
-conda activate $SCRATCH/urec_oc1703a_malaspina
+conda create --prefix $CONDA_PATH/urec_oc1703a_malaspina
+conda activate $CONDA_PATH/urec_oc1703a_malaspina
 
 # Install packages
 conda install -c bioconda blast=2.12.0  mafft=7.490 \
